@@ -4,4 +4,16 @@
   background: #a40404;
   border-radius: .5rem;
   color: white;
+
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .5s;
+}
+
+.quick-example > div {
+  overflow: hidden;
+}
+
+.quick-example:hover {
+  grid-template-rows: 1fr;
 }
